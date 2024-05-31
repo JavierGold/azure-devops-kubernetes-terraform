@@ -20,6 +20,7 @@ steps:
     backendAzureRmStorageAccountName: 'storageaccjahb'
     backendAzureRmContainerName: 'storageaccjahbcontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
+    allowTelemetryCollection: false
 - task: DownloadSecureFile@1
   name: publickey
   inputs:
